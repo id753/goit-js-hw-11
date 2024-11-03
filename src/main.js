@@ -5,8 +5,8 @@ import "izitoast/dist/css/iziToast.min.css";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-import { fetchData } from "./pixabay-api.js"; 
-import { createMarkup } from "./render-functions.js"; 
+import { fetchData } from "./js/pixabay-api.js"; 
+import { createMarkup } from "./js/render-functions.js"; 
 
 const form = document.querySelector(".form");
 const container = document.querySelector(".list"); 
